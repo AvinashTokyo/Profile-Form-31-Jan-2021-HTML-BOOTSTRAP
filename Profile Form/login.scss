@@ -1,0 +1,80 @@
+a {
+  text-decoration: none;
+}
+h4{
+  padding-top: 15px;
+}
+.sticky{
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index: 999;
+}
+.vertical-line {
+  border-left: 1px solid #ccc;
+  height: 10px;
+  padding: 0px;
+}
+
+.form-head {
+  display: inline;
+  a {
+    color: #6c757d;
+  }
+}
+
+span.info {
+  color: #1ea8e7;
+}
+
+// form css
+body {
+  background: rgb(228, 209, 235);
+  font-variant: small-caps;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ba68c8;
+}
+
+.profile-button {
+  background: rgb(99, 39, 120);
+  box-shadow: none;
+  border: none;
+  &:hover {
+    background: #682773;
+  }
+
+  &:focus {
+    background: #682773;
+    box-shadow: none;
+  }
+}
+
+.labels {
+  font-size: 12px;
+}
+
+.add-experience:hover {
+  background: #ba68c8;
+  color: #fff;
+  cursor: pointer;
+  border: solid 1px #ba68c8;
+}
+
+footer{
+  background-color: black;
+  .copyright {
+    color:white;
+    text-align: center;
+    // padding-top: 10px
+  }
+  .credits {
+    // padding-top: 3px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff
+  }
+  
+}
